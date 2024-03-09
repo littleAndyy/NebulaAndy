@@ -29,30 +29,7 @@
 #define BULLET_IMPACT_METAL "metal"
 #define BULLET_IMPACT_MEAT  "meat"
 
-#define SOUNDS_BULLET_MEAT  list(
-	'sound/effects/projectile_impact/bullet_meat1.ogg',
-	'sound/effects/projectile_impact/bullet_meat2.ogg',
-	'sound/effects/projectile_impact/bullet_meat3.ogg',
-	'sound/effects/projectile_impact/bullet_meat4.ogg',
-	'sound/effects/projectile_impact/blt_body_7.ogg',
-	'sound/effects/projectile_impact/blt_body_8.ogg',
-	'sound/effects/projectile_impact/blt_body_9.ogg',
-	'sound/effects/projectile_impact/blt_body_10.ogg',
-	'sound/effects/projectile_impact/blt_body_11.ogg',
-	'sound/effects/projectile_impact/blt_body_12.ogg',
-	'sound/effects/projectile_impact/blt_body_13.ogg',
-	'sound/effects/projectile_impact/blt_body_14.ogg',
-	'sound/effects/projectile_impact/blt_body_1.ogg',
-	'sound/effects/projectile_impact/blt_body_2.ogg',
-	'sound/effects/projectile_impact/blt_body_3.ogg',
-	'sound/effects/projectile_impact/blt_body_4.ogg',
-	'sound/effects/projectile_impact/blt_body_5.ogg',
-	'sound/effects/projectile_impact/blt_body_6.ogg'
-)
-#define SOUNDS_BULLET_METAL  list(
-	'sound/effects/projectile_impact/bullet_metal1.ogg',
-	'sound/effects/projectile_impact/bullet_metal2.ogg',
-	'sound/effects/projectile_impact/bullet_metal3.ogg'
-)
+#define SOUNDS_BULLET_MEAT  list('sound/effects/projectile_impact/bullet_meat1.ogg','sound/effects/projectile_impact/bullet_meat2.ogg','sound/effects/projectile_impact/bullet_meat3.ogg','sound/effects/projectile_impact/bullet_meat4.ogg','sound/effects/projectile_impact/blt_body_7.ogg','sound/effects/projectile_impact/blt_body_8.ogg','sound/effects/projectile_impact/blt_body_9.ogg','sound/effects/projectile_impact/blt_body_10.ogg','sound/effects/projectile_impact/blt_body_11.ogg','sound/effects/projectile_impact/blt_body_12.ogg','sound/effects/projectile_impact/blt_body_13.ogg','sound/effects/projectile_impact/blt_body_14.ogg','sound/effects/projectile_impact/blt_body_1.ogg','sound/effects/projectile_impact/blt_body_2.ogg','sound/effects/projectile_impact/blt_body_3.ogg','sound/effects/projectile_impact/blt_body_4.ogg','sound/effects/projectile_impact/blt_body_5.ogg','sound/effects/projectile_impact/blt_body_6.ogg')
+#define SOUNDS_BULLET_METAL  list('sound/effects/projectile_impact/bullet_metal1.ogg','sound/effects/projectile_impact/bullet_metal2.ogg','sound/effects/projectile_impact/bullet_metal3.ogg')
 #define SOUNDS_LASER_MEAT  list('sound/effects/projectile_impact/energy_meat1.ogg','sound/effects/projectile_impact/energy_meat2.ogg')
 #define SOUNDS_LASER_METAL  list('sound/effects/projectile_impact/energy_metal1.ogg','sound/effects/projectile_impact/energy_metal2.ogg')
