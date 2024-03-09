@@ -1,12 +1,34 @@
 var/global/list/shatter_sound = list(
 	'sound/effects/Glassbr1.ogg',
 	'sound/effects/Glassbr2.ogg',
-	'sound/effects/Glassbr3.ogg'
+	'sound/effects/Glassbr3.ogg',
+	'sound/effects/blt_glassBreak-01.ogg',
+	'sound/effects/blt_glassBreak-02.ogg',
+	'sound/effects/blt_glassBreak-03.ogg',
+	'sound/effects/blt_glassBreak-04.ogg',
+	'sound/effects/blt_glassBreak-05.ogg',
+	'sound/effects/blt_glassBreak-06.ogg',
+	'sound/effects/blt_glassBreak-07.ogg',
+	'sound/effects/blt_glassBreak-08.ogg',
+	'sound/effects/blt_glassBreak-09.ogg',
+	'sound/effects/blt_glassBreak-10.ogg',
+	'sound/effects/blt_glassBreak-11.ogg',
+	'sound/effects/blt_glassBreak-12.ogg',
+	'sound/effects/blt_glassBreak-13.ogg',
+	'sound/effects/blt_glassBreak-14.ogg',
+	'sound/effects/blt_glassBreak-15.ogg',
+	'sound/effects/blt_glassBreak-16.ogg'
 )
 
 var/global/list/explosion_sound = list(
-	'sound/effects/Explosion1.ogg',
-	'sound/effects/Explosion2.ogg'
+	'sound/effects/expl_cruisemissile_close-001.ogg',
+	'sound/effects/expl_cruisemissile_close-002.ogg',
+	'sound/effects/expl_cruisemissile_close-003.ogg',
+	'sound/effects/expl_cruisemissile_close-004.ogg',
+	'sound/effects/expl_cruisemissile_close-005.ogg',
+	'sound/effects/expl_cruisemissile_close-006.ogg',
+	'sound/effects/expl_cruisemissile_close-007.ogg',
+	'sound/effects/expl_cruisemissile_close-008.ogg'
 )
 
 var/global/list/spark_sound = list(
@@ -113,7 +135,7 @@ var/global/list/light_strike_sound = list(
 	'sound/effects/hit_kick.ogg',
 	'sound/effects/hit_punch.ogg'
 )
-	
+
 var/global/list/tray_hit_sound = list(
 	'sound/items/trayhit1.ogg',
 	'sound/items/trayhit2.ogg'

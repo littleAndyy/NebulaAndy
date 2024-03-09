@@ -1,7 +1,7 @@
 /obj/item/projectile/bullet
 	name = "bullet"
 	icon_state = "bullet"
-	fire_sound = 'sound/weapons/gunshot/gunshot_strong.ogg'
+	fire_sound = 'sound/weapons/gunshot/gunshot.ogg'
 	damage = 50
 	damage_type = BRUTE
 	damage_flags = DAM_BULLET | DAM_SHARP
@@ -13,9 +13,37 @@
 	var/caliber
 
 	muzzle_type = /obj/effect/projectile/muzzle/bullet
-	miss_sounds = list('sound/weapons/guns/miss1.ogg','sound/weapons/guns/miss2.ogg','sound/weapons/guns/miss3.ogg','sound/weapons/guns/miss4.ogg')
-	ricochet_sounds = list('sound/weapons/guns/ricochet1.ogg', 'sound/weapons/guns/ricochet2.ogg',
-							'sound/weapons/guns/ricochet3.ogg', 'sound/weapons/guns/ricochet4.ogg')
+	miss_sounds = list(
+		'sound/weapons/guns/miss1.ogg',
+		'sound/weapons/guns/miss2.ogg',
+		'sound/weapons/guns/miss3.ogg',
+		'sound/weapons/guns/miss4.ogg',
+		'sound/weapons/guns/blt_flyby_55.ogg',
+		'sound/weapons/guns/blt_flyby_56.ogg',
+		'sound/weapons/guns/blt_flyby_57.ogg',
+		'sound/weapons/guns/blt_flyby_58.ogg',
+		'sound/weapons/guns/blt_flyby_59.ogg',
+		'sound/weapons/guns/blt_flyby_60.ogg',
+		'sound/weapons/guns/blt_flyby_61.ogg',
+		'sound/weapons/guns/blt_flyby_62.ogg',
+		'sound/weapons/guns/blt_flyby_63.ogg',
+		'sound/weapons/guns/blt_flyby_64.ogg',
+		'sound/weapons/guns/blt_flyby_65.ogg'
+	)
+	ricochet_sounds = list(
+		'sound/weapons/guns/bullet_ricochet_12.ogg',
+		'sound/weapons/guns/bullet_ricochet_1.ogg',
+		'sound/weapons/guns/bullet_ricochet_2.ogg',
+		'sound/weapons/guns/bullet_ricochet_3.ogg',
+		'sound/weapons/guns/bullet_ricochet_4.ogg',
+		'sound/weapons/guns/bullet_ricochet_5.ogg',
+		'sound/weapons/guns/bullet_ricochet_6.ogg',
+		'sound/weapons/guns/bullet_ricochet_7.ogg',
+		'sound/weapons/guns/bullet_ricochet_8.ogg',
+		'sound/weapons/guns/bullet_ricochet_9.ogg',
+		'sound/weapons/guns/bullet_ricochet_10.ogg',
+		'sound/weapons/guns/bullet_ricochet_11.ogg'
+	)
 	impact_sounds = list(BULLET_IMPACT_MEAT = SOUNDS_BULLET_MEAT, BULLET_IMPACT_METAL = SOUNDS_BULLET_METAL)
 
 /obj/item/projectile/bullet/get_autopsy_descriptors()
@@ -60,7 +88,7 @@
 	if(prob(chance))
 		if(A.opacity)
 			//display a message so that people on the other side aren't so confused
-			A.visible_message("<span class='warning'>\The [src] pierces through \the [A]!</span>")
+			A.visible_message("<span class='warning'>/The [src] pierces through /the [A]!</span>")
 		return 1
 
 	return 0
@@ -73,6 +101,7 @@
 	distance_falloff = 3
 
 /obj/item/projectile/bullet/pistol/holdout
+	fire_sound = 'sound/weapons/gunshot/gunshot_4mm.ogg'
 	damage = 40
 	penetration_modifier = 1.2
 	distance_falloff = 4
@@ -118,7 +147,7 @@
 /* "Rifle" rounds */
 
 /obj/item/projectile/bullet/rifle
-	fire_sound = 'sound/weapons/gunshot/gunshot3.ogg'
+	fire_sound = 'sound/weapons/gunshot/gunshot2.ogg' // original 3
 	damage = 45
 	armor_penetration = 25
 	penetration_modifier = 1.5

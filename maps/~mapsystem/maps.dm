@@ -96,9 +96,9 @@ var/global/const/MAP_HAS_RANK = 2		//Rank system, also togglable
 	// Sounds played on roundstart
 	var/list/welcome_sound = 'sound/AI/welcome.ogg'
 	// Sounds played with end titles (credits)
-	var/list/credit_sound = list('sound/music/THUNDERDOME.ogg', 'sound/music/europa/Chronox_-_03_-_In_Orbit.ogg', 'sound/music/europa/asfarasitgets.ogg')
+	var/list/credit_sound = list('sound/music/papers_please_full.ogg', 'sound/music/themanwhosoldtheworld.ogg', 'sound/music/THUNDERDOME.ogg', 'sound/music/europa/Chronox_-_03_-_In_Orbit.ogg', 'sound/music/europa/asfarasitgets.ogg')
 	// Sounds played on server reboot
-	var/list/reboot_sound = list('sound/AI/newroundsexy.ogg','sound/misc/apcdestroyed.ogg','sound/misc/bangindonk.ogg')
+	var/list/reboot_sound = list('sound/AI/newroundsexy.ogg','sound/misc/minh_wowza_v2.ogg','sound/misc/voiceline_hattest_0.ogg','sound/misc/killgaet_swear.ogg','sound/misc/radioBeep.ogg','sound/misc/ho_ho_ho.ogg','sound/misc/joo_bidin.ogg','sound/misc/egg_xi_chinese.ogg','sound/misc/killgaet_super_lagedit.ogg','sound/misc/wobbledeath_screamedit.ogg','sound/misc/obamafart.ogg','sound/misc/andyAmogus.ogg','sound/misc/next.ogg')
 
 	var/default_law_type = /datum/ai_laws/asimov  // The default lawset use by synth units, if not overriden by their laws var.
 	var/security_state = /decl/security_state/default // The default security state system to use.
